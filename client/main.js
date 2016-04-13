@@ -17,6 +17,7 @@ Template.hello.helpers({
 Template.hello.events({
   'click button'(event, instance) {
     // increment the counter when button is clicked
+	//my second change(first change in bug-fix branch)
     instance.counter.set(instance.counter.get() + 1);
   },
 });
